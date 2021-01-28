@@ -3,9 +3,11 @@
 return [
    'admin' => [
        'installation' => [
-           'attributes' =>[
-               'default_client_id' => 'domyślny ID klienta',
-               'default_client_secret' =>'domyślny sekretny klucz klienta',
+           'default_setting' =>[
+               'attributes' =>[
+                   'default_client_id' => 'domyślny ID klienta',
+                   'default_client_secret' =>'domyślny sekretny klucz klienta',
+               ]
            ]
        ],
        'setting'=>[

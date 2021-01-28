@@ -15,9 +15,7 @@
     <form-builder disabled-dialog="" url="{{ route('allegro_client.admin.installation.store') }}" send-text="{{ _p('allegro-client::pages.admin.installation.send_text', 'Install') }}"
     edited>
         <div class="section">
-            <div class="section">
-                {{ _p('allegro-client::pages.admin.installation.will_be_execute_migrations', 'Will be execute package migrations') }}
-            </div>
+            {{ _p('allegro-client::pages.admin.installation.will_be_execute_migrations', 'Will be execute package migrations') }}
         </div>
     </form-builder>
 @endsection

@@ -37,8 +37,8 @@ class StoreDefaultSetting extends FormRequest
     public function attributes()
     {
         return [
-            'default_client_id' => _p('allegro-client::requests.admin.installation.attributes.default_client_id', 'Default client ID'),
-            'default_client_secret' => _p('allegro-client::requests.admin.installation.attributes.default_client_secret', 'Default client secret'),
+            'default_client_id' => _p('allegro-client::requests.admin.installation.default_setting.attributes.default_client_id', 'Default client ID'),
+            'default_client_secret' => _p('allegro-client::requests.admin.installation.default_setting.attributes.default_client_secret', 'Default client secret'),
         ];
     }
 }

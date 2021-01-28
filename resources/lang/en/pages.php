@@ -10,7 +10,17 @@ return [
             "will_be_execute_migrations" => "Will be execute package migrations",
             "default_client_id" => "Default client ID",
             "default_client_secret" => "Default client secret",
-            "generate_client_data" => "Generate client data at <a href=\":url\" target=\"_blank\">this</a> address."
+            "generate_client_data" => "Generate client data at <a href=\":url\" target=\"_blank\">this</a> address.",
+            "default_setting" => [
+                "meta_title" => "Installation module Allegro",
+                "meta_description" => "Installation module Allegro client in application",
+                "headline" => "Installation module Allegro",
+                "send_text" => "Install",
+                "installing_default_settings" => "Installing default settings.",
+                "default_client_id" => "Default client ID",
+                "default_client_secret" => "Default client secret",
+                "generate_client_data" => "Generate client data at <a href=\":url\" target=\"_blank\">this</a> address."
+            ]
         ]
     ],
     "user" => [
