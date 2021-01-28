@@ -1,6 +1,6 @@
 /**
  * Bundle of AWEMA allegro-client transpiled and polyfilled
- * Generated: 2021-01-27 19:59:46
+ * Generated: 2021-01-28 08:06:35
  * Version: 1.0.0
  */
 
