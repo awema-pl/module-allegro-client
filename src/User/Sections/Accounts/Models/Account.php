@@ -145,6 +145,8 @@ class Account extends Model implements AccountContract
         if (!$expiresAt){
             return true;
         }
-        return now() >= $expiresAt;
+        $dateTo = now();
+        $dateTo->subMinutes(15);
+        return $dateTo >= $expiresAt;
     }
 }

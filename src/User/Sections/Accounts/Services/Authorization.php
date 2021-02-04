@@ -104,6 +104,9 @@ class Authorization implements AuthorizationContract
                 'Allegro API error. Refresh token is expired.',AllegroApiException::ERROR_API_ALLEGRO, 403, null, _p('allegro-client::exceptions.refresh_token_expired', 'Allegro refresh token is expired.')
             );
         }
+        if (!$account->isAccessTokenExpiredAt){
+            return $accessToken;
+        }
         $application = $account->application;
         $clientId = $application->client_id ?? $this->settings->getValue('default_client_id');
         $clientSecret = $application->client_secret ?? $this->settings->getValue('default_client_secret');
